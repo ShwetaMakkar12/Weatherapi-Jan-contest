@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Data</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="secondPage">
+      <div class="main1">
+        <div id="mainpageheading">
+          <div id="headingdataofsecond">Weather Api</div>
+
+          <div id="latlong">
+            Lat: <span id="lat"></span>
+            <span>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Long:<span id="long"></span>
+          </div>
+
+          <div id="maps" class="map-container"></div>
+        </div>
+      </div>
+
+      <div class="main2">
+        <div id="main2heading">Weather Data</div>
+      </div>
+
+      <div class="main2data">
+        <div>
+            Location: <span id="city"></span>
+        </div> <br>
+        <div>
+            Lat:<span id="lat1"></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Long:<span id="long1"></span> 
+        </div> <br>
+        <div>
+            TimeZone: <span id="timezone"></span>
+        </div> <br>
+        <div>
+            Wind Speed: <span id="windspeed"></span>
+        </div> <br>
+        <div>
+            Pressure: <span id="pressure"></span>
+        </div> <br>
+        <div>
+            Humidity: <span id="humidity"></span>
+        </div> <br>
+        <div>
+            Wind Degree: <span id="winddirection"></span>
+        </div> <br>
+        <div>
+            Temperature <span id="temp"></span>
+        </div> <br>
+        <div>
+            Feels Like: <span id="feelslike"></span>
+        </div> <br>
+        <div>
+            Description: <span id="description"></span>
+        </div> <br>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
